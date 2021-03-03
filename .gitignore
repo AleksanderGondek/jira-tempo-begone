@@ -1,2 +1,7 @@
 *.class
 *.log
+
+target
+
+# BSP is not really xcompatible
+.bsp
