@@ -5,3 +5,10 @@ target
 
 # BSP is not really xcompatible
 .bsp
+.bloop
+.metals
+.vscode
+
+# VSCode thingy
+project/project
+project/metals.sbt
