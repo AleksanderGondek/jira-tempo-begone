@@ -52,6 +52,11 @@ lazy val root = (project in file("."))
     ),
 
     libraryDependencies ++= Seq(
+      "com.github.pureconfig" %% "pureconfig" % "0.14.1",
+      "com.softwaremill.sttp.client3" %% "core" % "3.1.7",
+      "com.softwaremill.sttp.client3" %% "circe" % "3.1.7",
+      "io.circe" %% "circe-core" % "0.13.0",
+      "io.circe" %% "circe-generic" % "0.13.0",
       "org.scalatest" % "scalatest_2.13" % "3.2.2" % "test",
     )
 
