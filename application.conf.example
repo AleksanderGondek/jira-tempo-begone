@@ -1,0 +1,4 @@
+basic-auth-token="<example>"
+jira-api-url="https://jira.domain.com"
+jira-board-id=616
+user-emails=["name.surname@domain.com"]
